@@ -30,6 +30,18 @@ body {
   min-height: calc(100vh - 2 * 4vw);
 }
 
+body::-webkit-scrollbar {
+  width: 0.65rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: #1e1e24;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: linear-gradient(to right bottom, #fbdb89, #f48982);
+}
+
 .container {
   max-width: 120rem;
   margin: 4vw auto;
