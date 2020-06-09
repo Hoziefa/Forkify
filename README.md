@@ -1,2 +1,2 @@
 # Forkify
-Get you favorite food online
+Get your favorite food online.
